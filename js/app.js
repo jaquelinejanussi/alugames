@@ -7,7 +7,7 @@ function alterarStatus(id){
     let nome_jogo = gameClicado.querySelector('.dashboard__item__name');
   
     alert(nome_jogo.textContent);
-    console.log(imagem);
+    //console.log(imagem);
 
     if(imagem.classList.contains('dashboard__item__img--rented')){//CONFIRMAÇÃO AO DEVOLVER
 if (confirm(`Você deseja realmente devolver o jogo ${nome_jogo.textContent}?`)) {
